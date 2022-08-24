@@ -1,2 +1,2 @@
-**/.terraform
+**/.terraform/**
 Lesson4/terraform.tfstate.backup
