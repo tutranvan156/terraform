@@ -4,7 +4,8 @@ data "aws_ami" "ami" {
     name   = "name"
     values = ["amzn2-ami-hvm-2.0.*-x86_64-gp2"]
   }
-  owners = ["amazon"]
+
+  owners = ["amazon"] 
 }
 module "iam_instance_profile" {
   source  = "terraform-in-action/iip/aws"
